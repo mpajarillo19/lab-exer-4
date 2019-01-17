@@ -9,6 +9,8 @@ int main(){
 	
 	cout << *pogi << endl;
 	
+	cout<<pogi;
+	
 	system ("pause > 0");
 	return 0;
 	
