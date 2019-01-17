@@ -3,11 +3,12 @@ using namespace std;
 
 int main(){
 	
-	char name [] ="Miguel Bryan Pajarillo";
-	char *hackerman;
+	string name [] ="Miguel Bryan Pajarillo";
+	string *hackerman;
 	
 	hackerman = name;
-	cout << hackerman << endl;
+	cout << *hackerman << endl;
+	cout<< hackerman;
 	
 	system ("pause > 0");
 	return 0;
